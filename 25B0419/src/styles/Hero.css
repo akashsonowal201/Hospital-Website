@@ -167,8 +167,12 @@
     text-align:center;
 }
 }
-.hero-image img{
-    animation:floatImage 4s ease-in-out infinite;
+
+.hero-image {
+    position: relative; 
+}
+.hero-image img {
+    animation: floatImage 4s ease-in-out infinite;
 }
 
 @keyframes floatImage{

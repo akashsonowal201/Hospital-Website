@@ -43,7 +43,9 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -122,7 +124,7 @@ STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "https://hospital-website-frontend.netlify.app",
 ]
 
 MEDIA_URL = "/media/"
