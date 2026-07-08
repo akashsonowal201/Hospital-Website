@@ -1,0 +1,52 @@
+.available{
+    margin:15px 0;
+    background:rgb(25,135,84);
+    color:white;
+    padding:8px;
+    border-radius:6px;
+    font-size:.9rem;
+}
+.unavailable{
+    margin:15px 0;
+    background:rgb(220,53,69);
+    color:white;
+    padding:8px;
+    border-radius:6px;
+    font-size:.9rem;
+}
+
+.doctor-content small{
+    display:block;
+    margin-top:10px;
+    color:rgb(108,117,125);
+}
+
+.department-card,
+.doctor-card,
+.testimonial-card,
+.why-card,
+.mission-card,
+.stat-card,
+.about-stat{
+    transition:all .3s ease;
+}
+
+.department-card:hover,
+.doctor-card:hover,
+.testimonial-card:hover,
+.why-card:hover,
+.mission-card:hover,
+.stat-card:hover,
+.about-stat:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+}
+.department-card img,
+.doctor-card img{
+    transition:.4s;
+}
+
+.department-card:hover img,
+.doctor-card:hover img{
+    transform:scale(1.05);
+}

@@ -1,0 +1,73 @@
+@media(max-width:992px){
+
+.container{
+    width:90%;
+}
+
+.hero-container,
+.about-container,
+.contact-container{
+    grid-template-columns:1fr;
+}
+
+.hero-content{
+    order:2;
+}
+
+.hero-image{
+    order:1;
+}
+
+.department-grid,
+.doctor-grid,
+.testimonial-grid,
+.why-grid,
+.about-stats-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.department-grid,
+.doctor-grid,
+.testimonial-grid,
+.why-grid,
+.about-stats-grid,
+.stats-container,
+.mission-grid{
+    grid-template-columns:1fr;
+}
+
+.hero h1{
+    font-size:2.3rem;
+}
+
+.section-title h2{
+    font-size:2rem;
+}
+
+}
+
+@media(max-width:576px){
+
+.hero{
+    padding:80px 0;
+}
+
+.hero h1{
+    font-size:2rem;
+}
+
+.about-banner h1,
+.contact-banner h1,
+.appointment-banner h1{
+    font-size:2rem;
+}
+
+.nav-links{
+    gap:15px;
+}
+
+}

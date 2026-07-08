@@ -1,0 +1,56 @@
+.appointment-banner{
+    background:rgb(13,110,253);
+    color:white;
+    text-align:center;
+    padding:80px 0;
+}
+
+.appointment-banner h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.appointment-page{
+    background:rgb(248,249,250);
+    padding:80px 0;
+}
+
+.appointment-form{
+    max-width:700px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    background:white;
+    padding:40px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.appointment-form input,
+.appointment-form select{
+    padding:15px;
+    font-size:1rem;
+    border:1px solid rgb(210,210,210);
+    border-radius:8px;
+}
+
+.appointment-form button{
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    background:rgb(13,110,253);
+    color:white;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+.appointment-form button:hover{
+    background:rgb(10,88,202);
+}
+
+.success-message{
+    text-align:center;
+    color:green;
+    font-weight:600;
+}
