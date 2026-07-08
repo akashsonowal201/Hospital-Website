@@ -124,7 +124,7 @@ STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 CORS_ALLOWED_ORIGINS = [
-    "https://hospital-website-frontend.netlify.app",
+    "https://hospital-website-zeta-drab.vercel.app",
 ]
 
 MEDIA_URL = "/media/"
